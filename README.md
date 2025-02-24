@@ -7,8 +7,10 @@ docker run --rm \
 --env AWS_DEFAULT_REGION=us-east-1 \
 frkr/aws-cli \
 aws $@
-```
+``` 
 
 ```shell
 ./awscli.sh --version
 ```
+
+- [inspired by](https://hub.docker.com/r/garland/aws-cli-docker/)
